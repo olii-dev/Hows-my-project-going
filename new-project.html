@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a new project</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="images/x-icon" href="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slackey|Gaegu">
+    <style>
+        body {
+            font-family: 'Slackey', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="big-box">
+        <h1>Create a new project</h1>
+        <h3 style="font-family: 'Gaegu'">Let's create a new project!</h3>
+        
+        <form action="action-page.php" method="post">
+            <label style="font-family: 'Gaegu'" for="pname">Project Name</label><br>
+            <input style="font-family: 'Gaegu'" class="box" type="text" id="pname" name="pname" placeholder="Enter project name"><br>
+            <hr class="break">
+            <label style="font-family: 'Gaegu'" for="explain-project">Explain Project</label><br>
+            <textarea style="font-family: 'Gaegu'" class="box" type="text" id="explain-project" name="explain-project" placeholder="Explain your Project"></textarea><br><br>
+            <input style="font-family: 'Gaegu'" class="box" type="submit" value="Create Project">
+        </form>        
+    </div>
+</body>
+</html>
